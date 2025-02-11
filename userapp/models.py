@@ -1,8 +1,8 @@
 from abc import update_abstractmethods
-from cgi import print_environ
-from datetime import date, datetime
+# from cgi import print_environ
+# from datetime import date, datetime
 from turtle import update
-from xmlrpc.client import DateTime
+# from xmlrpc.client import DateTime
 from django.db import models
 from employerapp.models import EmployePostModel
 

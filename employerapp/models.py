@@ -1,6 +1,6 @@
 from ast import Is, Pass
 from contextlib import nullcontext
-from distutils.command import upload
+# from distutils.command import upload
 from operator import truediv
 from django.db import models
 from django.forms import CharField
