@@ -17,10 +17,9 @@ def Admin_home(request):
 
 
 def Admin_Employer(request):
-    emp_id=request.session["emp_id"] 
+    # emp_id=request.session["emp_id"]
     Employer= EmployerRegModel.objects.all()
-    internshipcount= EmployePostModel.objects.filter(emp_id=emp_id).count()
-    
+    internshipcount= EmployePostModel.objects.filter(emp_id=1).count()
     return render(request,'admin/admin_emp_view.html', {'Employer':Employer,'internshipcount':internshipcount})
 
 
